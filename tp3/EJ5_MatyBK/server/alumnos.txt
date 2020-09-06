@@ -1,0 +1,5 @@
+LUCA|x5sqsa|D|1
+JUAN|x2s1sa|A|1
+PEPE|x3sbsa|A|1
+ADR|xaxqsa|D|2
+SOF|abxdda|A|2

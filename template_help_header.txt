@@ -1,0 +1,55 @@
+#! /bin/bash
+
+function information()
+{
+	echo "
+--------------------------------------------------
+--------------------------------------------------
+Nombre del script: EJ5.sh
+Trabajo practico 1 - Ejercicio 5
+--------------------------------------------------
+
+Grupo:
+MIRANDA SERGIO JAVIER - 35.634.266
+CARRIL ARANDA JOSE - 37.120.410
+LUNA SANCHEZ MATIAS LEONEL - 37.141.163
+RAMIREZ MATIAS GASTON - 39.505.838
+MASINI JOAN EZEQUIEL - 39.562.503
+
+--------------------------------------------------
+
+El script se encarga de generar un archivo a partir del ingresado por parametro.
+El archivo generado tendra informacion de la cantidad de alumnos agrupados por materia.
+La informacion resultante se mostrara respetando el siguiente orden, cada valor separado por comas:
+
+Id de materia, cantidad de alumnos a final, cantidad de recursantes, cantidad de posibles a recuperar
+y cantidad de alumnos que abandonaron la materia.
+
+
+--------------------------------------------------
+MODO DE USO
+===========
+
+./EJ5.sh <path file>
+./EJ5.sh -f <path file>
+
+Recuerde de ingresar la extension del archivo.
+
+Ejemplo 1: ./EJ5.sh inputFIle.txt
+Ejemplo 2: ./EJ5.sh -f inputFIle.txt
+--------------------------------------------------
+--------------------------------------------------
+
+"
+}
+
+
+if [[ $# != 0 && (($1 == "-h") || ($1 == "-?") || ($1 == "-help") || ($1 == "--help") || ($1 == "-HELP") || ($1 == "--HELP")) ]]
+then 
+	information
+else
+	
+	#----START VALIDACIONES ----#
+
+
+	#----END VALIDACIONES ----#

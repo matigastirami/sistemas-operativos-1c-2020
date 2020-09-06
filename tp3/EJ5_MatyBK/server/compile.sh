@@ -1,0 +1,1 @@
+gcc -c ej5_server.c && gcc -o server ej5_server.o -pthread && ./server

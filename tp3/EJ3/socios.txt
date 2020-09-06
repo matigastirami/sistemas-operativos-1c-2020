@@ -1,0 +1,7 @@
+Ziro;Nisval;1;Futbol;Lunes
+a;fgh;2;Voley;martes
+b;fgh;3;Voley;martes
+c;fgh;4;Voley;martes
+d;fgh;5;Voley;martes
+f;fgh;6;Voley;martes
+g;fgh;7;Voley;martes
